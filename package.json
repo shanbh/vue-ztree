@@ -1,0 +1,35 @@
+{
+  "name": "dist-ztree",
+  "version": "1.0.8",
+  "description": "基于Vue与ztree的树控件",
+  "main": "packages/index.js",
+  "keyword": "tree control",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name distZtree --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "@ztree/ztree_v3": "^3.5.44",
+    "core-js": "^3.6.5",
+    "dist-ztree": "^1.0.7",
+    "jquery": "^3.5.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

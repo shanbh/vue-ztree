@@ -1,0 +1,75 @@
+{
+    "message": "查询成功",
+    "result": {
+        "placeholder": "阅知类型",
+        "key": "readType",
+        "options": [
+            {
+                "id": 358,
+                "text": "默认栏目",
+                "value": "a",
+                "parentId": 204,
+                "count": null,
+                "editable": null,
+                "children": []
+            },
+            {
+                "id": 356,
+                "text": "舆情简报类",
+                "value": "b",
+                "parentId": 204,
+                "count": null,
+                "editable": null,
+                "children": [
+                    {
+                        "id": 359,
+                        "text": "舆情类",
+                        "value": "b_1",
+                        "parentId": 204,
+                        "count": null,
+                        "editable": null,
+                        "children": []
+                    },
+                    {
+                        "id": 360,
+                        "text": "简报类",
+                        "value": "b_2",
+                        "parentId": 204,
+                        "count": null,
+                        "editable": null,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "id": 357,
+                "text": "政策法规类",
+                "value": "c",
+                "parentId": 204,
+                "count": null,
+                "editable": null,
+                "children": [
+                    {
+                        "id": 361,
+                        "text": "政策类",
+                        "value": "c_1",
+                        "parentId": 204,
+                        "count": null,
+                        "editable": null,
+                        "children": []
+                    },
+                    {
+                        "id": 362,
+                        "text": "法规类",
+                        "value": "c_2",
+                        "parentId": 204,
+                        "count": null,
+                        "editable": null,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "state": "succeed"
+}
